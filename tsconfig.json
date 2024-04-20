@@ -18,8 +18,29 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "paths": {
+        "src/*": ["./src/*"],
+        "styles/*": ["./src/styles/*"],
+        "assets/*": ["./src/assets/*"],
+        "mocks/*": ["./src/mocks/*"],
+        "models/*": ["./src/models/*"],
+        "types/*": ["./src/types/*"],
+        "enums/*": ["./src/enums/*"],
+        "constants/*": ["./src/constants/*"],
+        "services/*": ["./src/services/*"],
+        "tools/*": ["./src/tools/*"],
+        "routers/*": ["./src/routers/*"],
+        "routes/*": ["./src/routes/*"],
+        "store/*": ["./src/store/*"],
+        "hocs/*": ["./src/hocs/*"],
+        "hooks/*": ["./src/hooks/*"],
+        "layouts/*": ["./src/layouts/*"],
+        "pages/*": ["./src/pages/*"],
+        "portals/*": ["./src/portals/*"],
+        "components/*": ["./src/components/*"]
+    },
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
