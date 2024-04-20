@@ -1,5 +1,8 @@
+import { AppRoutes } from 'routes/AppRoutes';
+
 const App = () => {
-    return <div>App</div>;
+    // authorization here
+    return <AppRoutes />;
 };
 
 export default App;
